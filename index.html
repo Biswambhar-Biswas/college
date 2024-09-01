@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="navbar">
+        <th><i id="bar" class="fa-solid fa-bars" onclick="hide_bar()"></i><i id="cross" class="fa-solid fa-xmark"
+                onclick="hide_cross()"></i>
+        </th>
+    </div>
+
+    <div class="menu" id="menu">
+        <a href="#"><button id="butt">NIL</button></a>
+        <a href="#"><button id="butt">NIL</button></a>
+        <a href="#"><button id="butt">NIL</button></a>
+        <a href="#"><button id="butt">NIL</button></a>
+        <a href="#"><button id="butt">NIL</button></a>
+
+    </div>
+
+
+</body>
+
+
+<script>
+    // nav bar hide and display block :{)
+    function hide_bar() {
+
+        if (bar.style.display != 'none') {
+            bar.style.display = 'none';
+            cross.style.display = 'block';
+            menu.style.display = 'block'
+        }
+        else {
+            bar.style.display = 'block';
+
+        }
+    }
+    function hide_cross() {
+
+        if (cross.style.display != 'none') {
+            cross.style.display = 'none';
+            bar.style.display = 'block';
+            menu.style.display = 'none'
+
+        }
+        else {
+            cross.style.display = 'block';
+
+        }
+    }
+</script>
+
+</html>

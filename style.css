@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+
+    background-color: rgb(250, 142, 0);
+    text-align: right;
+}
+#bar{
+    padding:7px ;
+    font-size: 22px;
+}
+
+#cross{
+    padding:7px ;
+    font-size: 22px;
+}
+#cross{
+    display: none;
+}
+
+
+.menu{
+    border: 1px solid rgb(250, 142, 0);
+    display: none;
+}
+
+#butt{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #777;
+    border: none;
+}
