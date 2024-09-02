@@ -5,16 +5,30 @@ body{
 #navbar{
 
     background-color: rgb(250, 142, 0);
+    background-image: url('cse.jpg');
     text-align: right;
 }
+#navbar font{
+    display: flex;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-family:'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
 #bar{
     padding:7px ;
     font-size: 22px;
+    
 }
 
 #cross{
     padding:7px ;
     font-size: 22px;
+    
 }
 #cross{
     display: none;
@@ -24,6 +38,10 @@ body{
 .menu{
     border: 1px solid rgb(250, 142, 0);
     display: none;
+    /* position:sticky;
+    z-index: 2; */
+
+
 }
 
 #butt{
@@ -35,4 +53,26 @@ body{
     font-weight: bold;
     color: #777;
     border: none;
+    background-color:rgb(200, 224, 255); 
+
+}
+#butt:hover{
+    color: black;
+}
+
+.year button{
+    justify-content: space-between;
+    gap: 100px;
+    font-size: 20px;
+    padding:40px ;
+    border: 1px solid rgb(188, 188, 241);
+    border-radius: 7px;
+    background-color: white;
+    margin: 13px;
+}
+.year{
+    /* background-color: red; */
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
 }
